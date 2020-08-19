@@ -38,4 +38,8 @@ class OrdersController < ApplicationController
   def check_user
     redirect_to login_path if !current_user
   end
+
+  def unused_method
+    # this doesnt do anything
+  end
 end

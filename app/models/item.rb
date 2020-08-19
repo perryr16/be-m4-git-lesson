@@ -21,4 +21,8 @@ class Item < ApplicationRecord
 
   enum status: [ "active", "retired" ]
 
+  def unused_method
+    # this doesnt do anything
+  end
+
 end
